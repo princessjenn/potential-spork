@@ -1,3 +1,9 @@
+.bg-image {
+    background-image: url('./Images/white_fur_background2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
 .container {
     display: flex;
     flex-direction: column;
@@ -31,8 +37,8 @@ p {
 }
 
  nav {
-    font-family: Georgia, serif;
-    background-color: #3db7ef;
+    font-family: Geneva;
+    background-color: ;
     overflow: hidden;
 
 }
@@ -40,7 +46,7 @@ p {
 /* Style the links inside the navigation bar */
 nav a {
     float: right;
-    color: rgb(240, 26, 147);
+    color: hotpink;
     text-align: center;
     padding: 14px 16px; 
 }
