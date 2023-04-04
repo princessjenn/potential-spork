@@ -4,10 +4,11 @@
     min-height: 100vh;
 }
   
-header {
+head {
     background-color: #333;
     color: #fff;
     padding: 10px;
+    justify-content: center;
 }
 
 h1 {
@@ -19,6 +20,7 @@ h1 {
 }
 
 h2 { 
+    font-size: 36px;
     justify-content: center;
 
 }
@@ -30,7 +32,7 @@ p {
 
  nav {
     font-family: Georgia, serif;
-    background-color: #180357;
+    background-color: #3db7ef;
     overflow: hidden;
 
 }
@@ -38,21 +40,29 @@ p {
 /* Style the links inside the navigation bar */
 nav a {
     float: right;
-    color: rgb(240, 151, 26);
+    color: rgb(240, 26, 147);
     text-align: center;
     padding: 14px 16px; 
 }
 
 main {
     font-family: Georgia, serif;
+    font-size: 18px;
     flex: 1;
+    margin: 12px;
+    border: 10px;
     padding: 10px;
     justify-content: center;
 }
+
+section { 
+    text-align: center;
+   
+}
   
 footer {
-    background-color: #333;
-    color: #fff;
+    color:rgb(0, 208, 255);
+    font-size: 12px;
     padding: 10px;
 }
   
