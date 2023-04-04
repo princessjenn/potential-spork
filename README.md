@@ -13,19 +13,16 @@ N/A
 
 ## Usage
 
+I created a navigation bar, and when the links are clicked, the page scrolls to that chosen section of my portfolio.
+
+
+I created a link onto the images of my deployed applications, so that when they are clicked, the browser takes you to the application itself to view my work.
+
 Provide instructions and examples for use. Include screenshots as needed.
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
 
 ![alt text](assets/images/screenshot.png)
-
-## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
 
 ## License
 
