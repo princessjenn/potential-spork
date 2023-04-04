@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+  
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+ nav {
+    font-family: ui-serif;
+    background-color: #180357;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px; 
+}
+
+main {
+    font-family: Georgia, serif;
+    flex: 1;
+    padding: 10px;
+}
+  
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+  
+main {
+      flex: 2;
+}
+  
+  /* Styles for mobile devices */
+  @media (max-width: 767px) {
+    .container {
+      flex-direction: column;
+    }
+}
+  
+  /* Styles for desktop devices */
+  @media (min-width: 768px) {
+    .container {
+      flex-direction: row;
+    }
+}
