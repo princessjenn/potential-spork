@@ -10,16 +10,35 @@ header {
     padding: 10px;
 }
 
+h1 {
+    font-style: oblique;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+
+}
+
+h2 { 
+    justify-content: center;
+
+}
+
+p {
+    justify-content: center;
+    display: flex
+}
+
  nav {
-    font-family: ui-serif;
+    font-family: Georgia, serif;
     background-color: #180357;
     overflow: hidden;
+
 }
 
 /* Style the links inside the navigation bar */
 nav a {
-    float: left;
-    color: white;
+    float: right;
+    color: rgb(240, 151, 26);
     text-align: center;
     padding: 14px 16px; 
 }
@@ -28,6 +47,7 @@ main {
     font-family: Georgia, serif;
     flex: 1;
     padding: 10px;
+    justify-content: center;
 }
   
 footer {
