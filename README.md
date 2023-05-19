@@ -1,5 +1,7 @@
 # Module 2 Challenge
 
+## Deployed link: https://princessjenn.github.io/potential-spork/
+
 ## Description
 
 I made a portfolio for my future employers to view my deployed applications in a flexible mobile/desktop fitting document. 
